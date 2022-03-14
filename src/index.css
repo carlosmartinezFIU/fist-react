@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: rgb(64, 64, 114);
+}
+
+.main_container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.task_header{
+  display: flex;
+  width: 372px;
+  height: 100px;
+  justify-content: space-between;
+  margin: 0 4rem 0 4rem;
+}
+
+.task_header button{
+  background-color: blue;
+  width: 78px;
+  height: 51px;
+  margin-top: 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.task{
+  width: 379px;
+  margin: auto;
+  background-color: gray;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.task h3{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 29px 0px 19px;
+}
+
+.task p{
+  margin-left: 44px;
+  margin-top: 7px;
+}
+
+h3 svg{
+  position: relative;
+  top: 11px;
+}
+
+.task.reminder{
+  border-left: 5px solid green;
+}
+
+.add-form{
+  width: 373px;
+  margin: auto;
+  margin-bottom: 29px;
+}
+
+.form_control{
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.form_control label{
+  margin-bottom: 7px;
+}
+
+
+.form_control_check{
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bottom_submit_btn{
+  margin-top: 28px;
+  width: 371px;
+  height: 44px;
+  background-color: black;
+  color: azure;
+  border: none;
+  font-weight: 700;
+}
